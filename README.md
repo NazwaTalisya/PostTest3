@@ -1,1 +1,11 @@
-# PostTest3
+# Fungsionalitas Program
+Program ini berfungsi untuk memanajemen data penerbangan. Program ini dapat menambahkan, melihat, mencari, serta menghapus data penerbangan yang ada. 
+
+# Cara Kerja Program
+Pada bagian awal program user diminta memilih lima menu yang tersedia. Menu pertama adalah menambahkan data penerbangan dengan menginput nama lengkap, nomor handphone, kode penerbangan, dan tanggal penerbangan yang kemudian akan ditambahkan ke dalam linked list. Menu kedua adalah melihat isi dari data linked list penerbangan. Menu ketiga adalah mencari data penerbangan dengan memasukan kode penerbangan yang ingin dicari. Menu keempat adalah menghapus data penerbangan dengan memasukan kode penerbangan. Menu kelima adalah menu exit yang berguna untuk keluar dari program.
+
+# Output Program
+Setelah program dijalankan pengguna akan melihat menu yang tersedia untuk digunakan dan pengguna akan diminta memasukan nomor dari menu yang diinginkan. Jika pengguna memasukan "1" maka pengguna akan masuk ke dalam menu menambah data, setelah itu pengguna akan diminta memasukan nama, no handphone, kode penerbangan, dan tanggal penerbangan dan data yang telah diinput oleh pengguna tadi akan dimasukan ke dalam linked list dan pengguna akan melihat output "Berhasil silahkan lihat data di menu 2". Jika pengguna memasukan "2" maka pengguna akan masuk ke menu melihat data linked list yang tersedia, sesaat setelah masuk ke dalam menu ini pengguna akan melihat output berupa list data penerbangan. Jika pengguna memasukan "3" maka pengguna akan masuk ke dalam menu mencari data, setelah masuk ke dalam menu ini pengguna akan diminta memasukan kode penerbangan untuk dicari data dari kode penerbangan yang dimasukan tersebut untuk dicari datanya. Jika pengguna memasuka "4" maka pengguna akan  masuk ke dalam  menu menghapus data penerbangan, setelah masuk ke menu ini pengguna diminta memasukan kode penerbangan yang ingin dihapus, setelah itu data yang dpilih oleh pengguna akan dihapus dari linked list. Jika pengguna memasukan "5" maka program langsung berhenti dengan exit function.
+
+# Elemen Yang Digunakan
+Untuk elemen yang digunakan ada pretty table, function main, function constructor, function biasa, function class, perulangan while, percabangan if, exit function
